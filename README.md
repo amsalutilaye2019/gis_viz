@@ -1,2 +1,2 @@
 # leaflet_project
-this is leaflet project done before for ndmc for mapping of govenment health facility
+this is leaflet project for ndmc for geospatial information visualization by NDMC GIS team.
