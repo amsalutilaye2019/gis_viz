@@ -5,11 +5,10 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <style>
-       #textbox{
-            height:auto;
-            width:auto;
+       #footer{
+            height:30px;
             background:#00b300;
-            margin: auto;
+            margin:0px;
             padding: auto;
             vertical-align:center;
             color:black;
@@ -28,8 +27,8 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div id="textbox">
-            <p id="pfooter"><span>&#169;</span>2021 All Rights Reserved</p>
+    <div class="container-fluid" id="footer">
+            <p id="pfooter">NDMC <span>&#169;</span>2021 All Rights Reserved</p>
     </div>
     <div style="clear: both;"></div>
 </body>

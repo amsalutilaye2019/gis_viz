@@ -5,12 +5,12 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <style>
-        .container-fluid{
+        #header{
             position: sticky;
             height:auto;
             width:auto;
             background:#00b300;
-            margin: 10px 10px 10px 5px;
+            margin-bottom:10px;
             padding: auto;
             vertical-align:center;
             color:black;
@@ -18,11 +18,11 @@
             opacity:0.7;
             border-radius:5px;
         }
-        .container-fluid a{
+        #header a{
             color:brown;
             font-weight:bold;
         }
-        .container-fluid h4{
+        #header h4{
             color:black;
             text-align:center;
             font-weight:bolder;
@@ -33,7 +33,7 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="header">
         <div class="row">
             <div class="col-md-10">
                 <h4>NDMC Geospatial Vizualization</h4>

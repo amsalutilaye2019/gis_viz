@@ -1,3 +1,4 @@
+<!-- header added here -->
 <?php 
     include ('header.php');
 ?>
@@ -12,11 +13,27 @@
             height:auto;
             width:auto;
             background:#f0f5f5;
+            padding:10px 10px 5px 10px;
+            text-align:justify;
         }
-        #content h5, p{
+        #imgdiv{
+            display:inline-block;
+            border:solid none;
+            margin:20px 40px 10px 40px;
+            
+        }
+        #imgdiv p h6{
+            padding:10px 20px 10px 10px;
             font-family:Serif;
-            text-align: justify;
+            text-align:justify;
         }
+        img{
+            height: 270px;
+            width:350px;
+            float:left;
+            padding-right:20px;
+        }
+
     </style>
     <script src="jquery/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -31,6 +48,19 @@
                 Thus interactive and dynamic web maps can be used for dessiminating up-to-date geospatial information to users timely.</p>
         </div>
     </div>
+    <div class="content">
+        <div id="imgdiv">
+            <p><span><img src="img/hf.jpg"><h6>Health Facility Distribution</h6>
+            Health care facilities are centers providing health care services. 
+            GIS enables for mapping their distribution across regions (space), 
+            which helps us to identify equity gaps, to support surveillance activities, 
+            emergency responses and resource allocation. NDMC has produced Health facility maps using health facility data with GIS attributes. 
+            The data has been pre-processed to meet the spatial quality and standard requirements.
+    </p>The map shows the number of government health facilities per 100,000 population which includes 
+                Hospitals, Health Centers, Health Posts, Health Stations.<a href="#">Map visualize</a></span> </p>
+        </div>
+    </div>
+    <!-- footer added here -->
     <?php 
     include ('footer.php');
 ?>
