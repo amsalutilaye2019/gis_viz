@@ -19,6 +19,9 @@
             border-radius:5px;
             text-align:center
         }
+        #pfooter{
+            text-align:center;
+        }
     </style>
     <script src="jquery/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -26,7 +29,7 @@
 </head>
 <body>
     <div id="textbox">
-            <p><span>&#169;</span>2021 All Rights Reserved</p>
+            <p id="pfooter"><span>&#169;</span>2021 All Rights Reserved</p>
     </div>
     <div style="clear: both;"></div>
 </body>

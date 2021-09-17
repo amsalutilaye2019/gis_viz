@@ -15,6 +15,7 @@
         }
         #content h5, p{
             font-family:Serif;
+            text-align: justify;
         }
     </style>
     <script src="jquery/jquery.js"></script>
@@ -26,10 +27,12 @@
         <div id="content">
             <h5>Geospatial Visualization</h5>
             <p>Geospatial visualizations are one of the earliest forms of information visualizations. They were used historically for navigation and were essential tools before the modern technological era of humanity. Data maps were first popularized in the seventeenth century and have grown in complexity and detail since then. Consider Google Maps, the sheer volume of data depicted, and the analytical pathways available to its users. Of course geospatial data visualizations do not require computational skills to generate.</p>
+            <p>National Data Management Center, NDMC at EPHI is producing standard datasets having GIS attributes to promote the use of GIS in health data analytics, evidence generation and to inform decision. 
+                Thus interactive and dynamic web maps can be used for dessiminating up-to-date geospatial information to users timely.</p>
         </div>
     </div>
     <?php 
     include ('footer.php');
 ?>
 </body>
-</html>
+</html> 

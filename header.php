@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <style>
         .container-fluid{
+            position: sticky;
             height:auto;
             width:auto;
             background:#00b300;
@@ -14,11 +15,12 @@
             vertical-align:center;
             color:black;
             font-family:Serif;
+            opacity:0.7;
+            border-radius:5px;
         }
         .container-fluid a{
             color:brown;
             font-weight:bold;
-            border-radius:5px;
         }
         .container-fluid h4{
             color:black;
