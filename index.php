@@ -1,4 +1,4 @@
-<!-- header included as php file here -->
+<!-- header added here -->
 <?php 
     include ('header.php');
 ?>
